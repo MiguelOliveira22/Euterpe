@@ -1,6 +1,5 @@
 # Euterpe
-# _Musica E Competição_
----
+### _Musica E Competição_
 Euterpe é um projeto simples para criar um jogo como um "Would You Rather"!
 
 Escolha qual é o melhor cantor e discuta. Você também pode ler e criar blogs na pagina 'BLOG';
