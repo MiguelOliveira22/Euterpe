@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(101, 240, 207);
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+
+.logo{
+    font-family: 'Kranky', serif;
+    font-size: xx-large;
+}
+
+.flex{
+    display: flex;
+}
+
+.separate{
+    gap: 7vw;
+}
+
+.menubar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    background-color: rgb(196, 255, 223);
+    border-radius: 15px;
+}
+
+.center{
+    justify-content: center;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.selection{
+    display: flex;
+    gap: 10px;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.card{
+    border-radius: 25px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.disc{
+    border-radius: 15px;
+    align-items: center;
+    background-color: rgb(250, 207, 154);
+    padding: 3px;
+}
+
+#item{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+#nome{
+    text-align: center;
+    font-size: x-large;
+}
+
+#musga{
+    cursor: pointer;
+}
+
+#musga:hover{
+    width: 30px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(51, 51, 51);
+}
+
+table, td, th{
+    border-collapse: collapse;
+    border: 1px black solid; 
+}

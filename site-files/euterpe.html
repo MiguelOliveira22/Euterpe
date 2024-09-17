@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="http://127.0.0.1/cdn/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kranky&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+        <script src="http://127.0.0.1/cdn/audiorequest.js"></script>
+        <script src="http://127.0.0.1/cdn/tabelarequest.js"></script>
+        <script src="http://127.0.0.1/cdn/index.js"></script>
+        <title>Euterpe</title>
+
+        <template id="base">
+            <div class="card">
+                <img alt="Imagem De Famoso" id="item">
+                <div id="nomecontainer" class="selection padding center">
+                    <span id="nome">Nome</span>
+                    <span id="musga" class="disc flex"><svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000"><path d="M480-300q75 0 127.5-52.5T660-480q0-75-52.5-127.5T480-660q-75 0-127.5 52.5T300-480q0 75 52.5 127.5T480-300Zm0-140q-17 0-28.5-11.5T440-480q0-17 11.5-28.5T480-520q17 0 28.5 11.5T520-480q0 17-11.5 28.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></span>
+                </div>
+            </div>
+        </template>
+        
+        <template id="btnbase">
+            <button>Votar</button>
+        </template>
+    </head>
+    <body>
+        <div class="flex menubar">
+            <a href="/" class="logo padding">Versoss</a>
+            <div class="selection padding">
+                <a href="http://127.0.0.1/blog/">Blog</a>
+                <a href="http://127.0.0.1/about/">About</a>
+            </div>
+        </div>
+        <div class="flex around padding">
+            <div id="Anuncio" class="">
+                <table id="popular"></table>
+                <table id="selectcool"></table>
+            </div>
+            <div id="Menu" class="flex around separate"></div>
+        </div>
+    </body>
+</html>
